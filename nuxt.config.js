@@ -40,5 +40,10 @@ export default {
   build: {
   },
 
-  srcDir: './client/'
+  // SSR Src Directory
+  srcDir: './client/',
+
+  serverMiddleware: [
+    '~~/api/index.ts'
+  ]
 }
